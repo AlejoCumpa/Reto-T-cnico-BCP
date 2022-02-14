@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Reto Técnico BCP</string>
+    <string name="title_activity_currencies">CurrenciesActivity</string>
+
+
+    <string name="progress">Obteniendo datos...</string>
+    <string name="country_name">Unión Europea</string>
+    <string name="code_value">1 EUR = 1.000 EUR</string>
+    <string name="eur_1">1 EUR = </string>
+    <string name="start_operation">Empieza tu operación</string>
+
+
+    <string name="hint_send">Tú envías:</string>
+    <string name="hint_receives">Tú recibes:</string>
+
+</resources>

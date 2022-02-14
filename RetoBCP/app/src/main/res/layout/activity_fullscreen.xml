@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="?attr/fullscreenBackgroundColor"
+        android:theme="@style/ThemeOverlay.RetoTécnicoBCP.FullscreenContainer"
+        tools:context=".ui.view.FullscreenActivity">
+
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:src="@drawable/ic_bcp_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:gravity="center"/>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_below="@id/iv_logo"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:text="@string/progress"
+            android:layout_marginTop="6dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_below="@id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+</layout>
